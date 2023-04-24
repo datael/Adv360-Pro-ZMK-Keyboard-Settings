@@ -38,7 +38,7 @@ macro_underscore: macro_underscore{
 compatible = "zmk,behavior-macro";
 label = "macro_underscore";
 #binding-cells = <0>;
-bindings =
+bindings
   = <&macro_press &kp LALT>
   , <&macro_tap &kp KP_N9>
   , <&macro_tap &kp KP_N5>
